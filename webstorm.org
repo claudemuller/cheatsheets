@@ -1,0 +1,16 @@
+* Webstorm
+** File operations
+   | Ctrl + Shft + N | Search for filename |
+   |                 |                     |
+** Code editing
+   | Ctrl + /        | Comment/Uncomment lines     |
+   | Ctrl + Shft + F | Search code base for string |
+   |                 |                             |
+** Code viewing
+   | Ctrl + +        | Expand block                   |
+   | Ctrl + -        | Collapse block                 |
+   | Ctrl + Shft + + | Expand all                     |
+   | Ctrl + Shft + - | Collapse all                   |
+   | Ctrl + Shft + I | Quick definition               |
+   | Shft + K        | Show documentation for element |
+   |                 |                                |

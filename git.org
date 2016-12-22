@@ -1,0 +1,23 @@
+* Git
+** Stash
+   | git stash -k -u        | Stash even unstaged files      |
+   | git stash list         | List all the available stashed |
+   | git stash show -p      | Show most recent stash         |
+   | git stash drop <stash> | Delete stash                   |
+   |                        |                                |
+** Branches
+   | git checkout <branch>    | Switch to branch            |
+   | git checkout -b <branch> | Create and switch to branch |
+   | git branch -d <branch>   | Delete the branch           |
+   |                          |                             |
+** Misc
+   | git reset <file>         | Remove file from stage  |
+   | git checkout [--] <file> | Revert file to original |
+   | git reset --HARD         | Revert all changes      |
+   |                          |                         |
+** Log
+   | git log -n <num>       | Show <num> number of logs              |
+   | git show --stat <hash> | Show the changed files for commit hash |
+   | git show <hash>        | Show the changes for commit hash       |
+   | git diff <hash> <file> | Show diff for file at commit hash      |
+   |                        |                                        |

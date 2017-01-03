@@ -21,3 +21,4 @@
    | git show <hash>        | Show the changes for commit hash       |
    | git diff <hash> <file> | Show diff for file at commit hash      |
    |                        |                                        |
+   |                        |                                        |

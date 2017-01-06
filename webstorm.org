@@ -23,9 +23,16 @@
    | Ctrl + TAB      | Switch open files                   |
    |                 |                                     |
 ** Git
-   | Alt + 9 | Toggle version control pane |
-   |         |                             |
+   | Alt + 9               | Toggle version control pane |
+   | Ctrl + Alt + A        | Add file                    |
+   | Ctrl + Shft + H       | Local history for file      |
+   | Ctrl + Shft + Alt + H | Local history for selection |
+   |                       |                             |
 ** Terminal
    | Ctrl + Shft + ~ | Invoke terminal   |
    | Ctrl + Shft + ' | Maximize terminal |
    |                 |                   |
+** Panes
+   | Alt + 1 | Show/hide project pane |
+   | Alt + 6 | Show/hide TODO pane    |
+   |         |                        |

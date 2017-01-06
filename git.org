@@ -7,8 +7,10 @@
    |                        |                                |
 ** Branches
    | git checkout <branch>    | Switch to branch            |
+   | git co <branch>          | Switch to branch            |
    | git checkout -b <branch> | Create and switch to branch |
    | git branch -d <branch>   | Delete the branch           |
+   | git branch -vv           | Show verbose of verbose     |
    |                          |                             |
 ** Misc
    | git reset <file>         | Remove file from stage  |
@@ -16,11 +18,21 @@
    | git reset --HARD         | Revert all changes      |
    |                          |                         |
 ** Log
-   | git log -n <num>       | Show <num> number of logs              |
-   | git show --stat <hash> | Show the changed files for commit hash |
-   | git show <hash>        | Show the changes for commit hash       |
-   | git diff <hash> <file> | Show diff for file at commit hash      |
-   |                        |                                        |
+   | git log -n <num>             | Show <num> number of logs messages     |
+   | git show --stat <hash>       | Show the changed files for commit hash |
+   | git show <hash>              | Show the changes for commit hash       |
+   | git diff <hash> <file>       | Show diff for file at commit hash      |
+   | git log --decorate --numstat | Show files that were changed with log  |
+   | git ls                       | Show log oneline with authors          |
+   | git ll                       | Show files that were changed with log  |
+   | git lds                      | Show log showing dates                 |
+   | git ld                       | Show log showing relative dates        |
+   | git log -u                   | Show commits and diff of file          |
+   | git st                       | Shorter status                         |
+   | git diff HEAD <file>         | Show changes in unstaged file          |
+   |                              |                                        |
 ** Checkout
-   | git reset --hard <hash/branch/tag> | Checkout/rollback to hash, branch or tag |
-   |                                    |                                          |
+   | git reset --hard <hash/branch/tag> | Reset to hash, branch or tag        |
+   | git checkout <hash/branch>         | Checkout/rollback to hash or branch |
+   | git unstage                        | Unstage files                       |
+   |                                    |                                     |

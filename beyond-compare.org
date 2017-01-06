@@ -1,0 +1,4 @@
+* Beyond Compare
+** Conflict resolution
+   | Ctrl + B | Pull in changes from left and right |
+   |          |                                     |

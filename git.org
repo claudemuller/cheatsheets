@@ -1,23 +1,32 @@
 * Git
 ** Stash
-   | git stash -k -u        | Stash even unstaged files      |
-   | git stash list         | List all the available stashed |
-   | git stash show -p      | Show most recent stash         |
-   | git stash drop <stash> | Delete stash                   |
-   |                        |                                |
+   | git stash -k -u                     | Stash even unstaged files         |
+   | git stash list                      | List all the available stashed    |
+   | git stash show <id>                 | Show stash                        |
+   | git stash show -p                   | Show most recent stash incl. diff |
+   | git stash drop <stash>              | Delete stash                      |
+   | git stash save <name>               | Save stash with name              |
+   | git stash apply/pop stash^{/<name>} | Address stash with regex          |
+   |                                     |                                   |
 ** Branches
-   | git checkout <branch>    | Switch to branch            |
-   | git co <branch>          | Switch to branch            |
-   | git checkout -b <branch> | Create and switch to branch |
-   | git branch -d <branch>   | Delete the branch           |
-   | git branch -vv           | Show verbose of verbose     |
-   |                          |                             |
+   | git checkout <branch>             | Switch to branch                |
+   | git co <branch>                   | Switch to branch                |
+   | git checkout -b <branch>          | Create and switch to branch     |
+   | git push -u origin <branch>       | Push branch to remote and track |
+   | git branch -vv                    | Show verbose of verbose         |
+   | git branch -d <branch>            | Delete local branch             |
+   | git push origin --delete <branch> | Delete remote branch            |
+   | git push origin <branch>          | Push commits to remote branch   |
+   |                                   |                                 |
 ** Misc
-   | git reset <file>         | Remove file from stage  |
-   | git checkout [--] <file> | Revert file to original |
-   | git reset --hard HEAD    | Revert all changes      |
-   | git mergetool            | External merge tool     |
-   |                          |                         |
+   | git reset <file>            | Remove file from stage            |
+   | git checkout [--] <file>    | Revert file to original           |
+   | git reset --hard HEAD       | Revert all changes                |
+   | git mergetool               | External merge tool               |
+   | git remote                  | Show remotes                      |
+   | git remote -v               | Show remotes verbose              |
+   | git remote add origin <url> | Add an origin of <url> for origin |
+   |                             |                                   |
 ** Log
    | git log -n <num>             | Show <num> number of logs messages        |
    | git show --stat <hash>       | Show the changed files for commit hash    |
@@ -41,3 +50,14 @@
    | git checkout <hash/branch>         | Checkout/rollback to hash or branch |
    | git unstage                        | Unstage files                       |
    |                                    |                                     |
+** Remotes
+   | git push -u origin <branch> | Push branch to remote with tracking |
+   |                             |                                     |
+** Commit
+   | git commit --no-ff       | Commit with no fast-forward |
+   | git commit -am "message" | Add and commit with message |
+   |                          |                             |
+** Tags
+   | git tag                            | Show tags in repo       |
+   | git push --tags origin HEAD:master | Push including tag info |
+   |                                    |                         |

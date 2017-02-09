@@ -1,0 +1,4 @@
+* General
+  | Ctrl + l        | Reindent region                         |
+  | Ctrl + Shft + o | Reorganise project i.e. to imports etc. |
+  |                 |                                         |

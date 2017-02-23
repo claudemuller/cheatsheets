@@ -13,8 +13,11 @@
 ** Code viewing
    | Ctrl + +        | Expand block                        |
    | Ctrl + -        | Collapse block                      |
+   | Ctrl + .        | Expand/Collapse selection           |
    | Ctrl + Shft + + | Expand all                          |
    | Ctrl + Shft + - | Collapse all                        |
+   | Ctrl + Alt + +  | Expand recursively                  |
+   | Ctrl + Alt + -  | Contract recursively                |
    | Ctrl + Shft + I | Quick definition                    |
    | Shft + K        | Show documentation for element      |
    | Alt + F7        | Find usages of symbol under carret  |
@@ -27,6 +30,8 @@
    | F4              | Jump to source                      |
    | Alt + F7        | Find usages of text under cursor    |
    | Ctrl + B        | Jump to definition                  |
+   | Ctrl + Shft + Alt + Z | Navigate back                       |
+   | Ctrl + Shft + Alt + X | Navigate forward                       |
    |                 |                                     |
 ** Git
    | Alt + 9               | Toggle version control pane |

@@ -49,4 +49,6 @@
    |         |                        |
 ** Misc
    | Ctrl + Shft + A | Find action |
+   |                 |             |
+
 

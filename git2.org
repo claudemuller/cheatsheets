@@ -1,8 +1,0 @@
-git reset HEAD <file>                     unstage file
-git checkout -- <file>                    unmodify modified file (clear modifications)
-git remote set-url origin <url>           change remote url
-git reset --hard                          revert changes to modified files
-git stash                                 stash stage away
-git stash apply                           reapply stash
-git fetch --all                           overwrite local files
-git reset --hard origin/master

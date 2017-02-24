@@ -29,7 +29,9 @@
    | git remote                  | Show remotes                                               |
    | git remote -v               | Show remotes verbose                                       |
    | git remote add origin <url> | Add an origin of <url> for origin                          |
+   | git remote set-url origin <url> | Change remote url                                      |
    | git merge --no-ff           | Merge with no fast-forward (ability to add info to commit) |
+   | git show --pretty="" --name-only <commit> | Show filenames in commit                     |
    |                             |                                                            |
 ** Log
    | git log -n <num>             | Show <num> number of logs messages        |

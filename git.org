@@ -21,18 +21,18 @@
    | git checkout -b test <name of remote>/test | Checkout remote branch          |
    |                                            |                                 |
 ** Misc
-   | git reset <file>            | Remove file from stage                                     |
-   | git checkout [--] <file>    | Revert file to original                                    |
-   | git reset --hard HEAD       | Revert all changes                                         |
-   | git clean -f -d             | Clean dir of untracked files and dirs                      |
-   | git mergetool               | External merge tool                                        |
-   | git remote                  | Show remotes                                               |
-   | git remote -v               | Show remotes verbose                                       |
-   | git remote add origin <url> | Add an origin of <url> for origin                          |
-   | git remote set-url origin <url> | Change remote url                                      |
-   | git merge --no-ff           | Merge with no fast-forward (ability to add info to commit) |
-   | git show --pretty="" --name-only <commit> | Show filenames in commit                     |
-   |                             |                                                            |
+   | git reset <file>                          | Remove file from stage                                     |
+   | git checkout [--] <file>                  | Revert file to original                                    |
+   | git reset --hard HEAD                     | Revert all changes                                         |
+   | git clean -f -d                           | Clean dir of untracked files and dirs                      |
+   | git mergetool                             | External merge tool                                        |
+   | git remote                                | Show remotes                                               |
+   | git remote -v                             | Show remotes verbose                                       |
+   | git remote add origin <url>               | Add an origin of <url> for origin                          |
+   | git remote set-url origin <url>           | Change remote url                                          |
+   | git merge --no-ff                         | Merge with no fast-forward (ability to add info to commit) |
+   | git show --pretty="" --name-only <commit> | Show filenames in commit                                   |
+   |                                           |                                                            |
 ** Log
    | git log -n <num>             | Show <num> number of logs messages        |
    | git show --stat <hash>       | Show the changed files for commit hash    |

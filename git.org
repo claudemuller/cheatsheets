@@ -1,6 +1,6 @@
 * Git
 ** Stash
-   | git stash -k -u                     | Stash even unstaged files         |
+   | git stash -u                        | Stash even unstaged files         |
    | git stash list                      | List all the available stashed    |
    | git stash show <id>                 | Show stash                        |
    | git stash show -p                   | Show most recent stash incl. diff |

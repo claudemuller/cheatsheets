@@ -83,6 +83,7 @@
   | Ctrl-w H/J/K/L | Move window around                   |
   | gt             | Next tab                             |
   | gT             | Previous tab                         |
+  | [num]gt        | Jump to [num] tab                    |
   |                |                                      |
 
 * Search

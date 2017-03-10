@@ -62,6 +62,8 @@
    |                             |                                     |
 ** Commit
    | git commit -am "message" | Add and commit with message |
+   | git reset --hard HEAD^   | Undo last commit and destroy those awful changes you made |
+   | git reset --soft HEAD^   | Undo last commit and bring changes back into staging |
    |                          |                             |
 ** Tags
    | git tag                            | Show tags in repo       |

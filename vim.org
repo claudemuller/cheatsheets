@@ -33,6 +33,10 @@
   | Ctrl-I | jump to next cursor position (after Ctrl-O) |
   |        |                                             |
 
+* Viewing COde
+  | #   | Select all occurances of string under cursor |
+  |     |                                              |
+
 * Deletion
   | x   | Delete character at point        |
   | dd  | Delete line                      |

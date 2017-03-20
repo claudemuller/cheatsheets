@@ -32,6 +32,7 @@
    | Ctrl + B              | Jump to definition                  |
    | Ctrl + Shft + Alt + Z | Navigate back                       |
    | Ctrl + Shft + Alt + X | Navigate forward                    |
+   | Ctrl + Q              | View documentation                  |
    |                       |                                     |
 ** Git
    | Alt + 9               | Toggle version control pane |

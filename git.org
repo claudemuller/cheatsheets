@@ -19,7 +19,7 @@
    | git branch -d <branch>                     | Delete local branch             |
    | git push origin --delete <branch>          | Delete remote branch            |
    | git push origin <branch>                   | Push commits to remote branch   |
-   | git checkout -b test <name of remote>/test | Checkout remote branch          |
+   | git checkout -b <name of remote branch     | Checkout remote branch          |
    |                                            |                                 |
 ** Misc
    | git reset <file>                          | Remove file from stage                                     |

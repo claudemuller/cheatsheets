@@ -11,16 +11,16 @@
    | git stash branch <branch> <stash>   | Create a branch from a stash      |
    |                                     |                                   |
 ** Branches
-   | git checkout <branch>                      | Switch to branch                |
-   | git co <branch>                            | Switch to branch                |
-   | git checkout -b <branch>                   | Create and switch to branch     |
-   | git push -u origin <branch>                | Push branch to remote and track |
-   | git branch -vv                             | Show verbose of verbose         |
-   | git branch -d <branch>                     | Delete local branch             |
-   | git push origin --delete <branch>          | Delete remote branch            |
-   | git push origin <branch>                   | Push commits to remote branch   |
-   | git checkout -b <name of remote branch     | Checkout remote branch          |
-   |                                            |                                 |
+   | git checkout <branch>                                         | Switch to branch                |
+   | git co <branch>                                               | Switch to branch                |
+   | git checkout -b <branch>                                      | Create and switch to branch     |
+   | git push -u origin <branch>                                   | Push branch to remote and track |
+   | git branch -vv                                                | Show verbose of verbose         |
+   | git branch -d <branch>                                        | Delete local branch             |
+   | git push origin --delete <branch>                             | Delete remote branch            |
+   | git push origin <branch>                                      | Push commits to remote branch   |
+   | git checkout -b <local branch> origin/<name of remote branch> | Checkout remote branch          |
+   |                                                               |                                 |
 ** Misc
    | git reset <file>                          | Remove file from stage                                     |
    | git checkout [--] <file>                  | Revert file to original                                    |

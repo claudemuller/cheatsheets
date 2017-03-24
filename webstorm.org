@@ -13,7 +13,7 @@
 ** Code viewing
    | Ctrl + +              | Expand block                        |
    | Ctrl + -              | Collapse block                      |
-   | Ctrl + .              | Expand/Collapse selection           |
+   | Ctrl + .              | Toggle expand/collapse              |
    | Ctrl + Shft + +       | Expand all                          |
    | Ctrl + Shft + -       | Collapse all                        |
    | Ctrl + Alt + +        | Expand recursively                  |

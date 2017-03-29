@@ -56,6 +56,7 @@
    | git reset --hard <hash/branch/tag> | Reset to hash, branch or tag        |
    | git checkout <hash/branch>         | Checkout/rollback to hash or branch |
    | git unstage                        | Unstage files                       |
+   | git reset HEAD --                  | Unstage files                       |
    |                                    |                                     |
 ** Remotes
    | git push -u origin <branch> | Push branch to remote with tracking |

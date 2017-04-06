@@ -46,6 +46,8 @@
   | d$  | Delete to end of line            |
   | diw | Delete inner word                |
   | D   | Delete from point to end of line |
+  | ds" | Delete delimeters                |
+  | dst | Delete tag                       |
   |     |                                  |
 
 * Editing
@@ -71,8 +73,9 @@
   | cs"'                  | Inside "" change to ''                 |
   | cs'<p>                | Change ' to </p>                       |
   | cst"                  | Change tag to "                        |
-  | ds"                   | Delete delimeters                      |
-  | dst                   | Delete tag                             |
+  | cs"                   | Change delimeters                      |
+  | cst                   | Change tag                             |
+  | ca"                   | Change including outer "               |
   | ysiw[                 | Surround inner word with [             |
   | S<p>                  | Surround selection with </p>           |
   | yssm[                 | Surround whole line in [               |

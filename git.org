@@ -25,6 +25,8 @@
    | git reset <file>                                        | Remove file from stage                                     |
    | git checkout [--] <file>                                | Revert file to original                                    |
    | git reset --hard HEAD                                   | Revert all changes                                         |
+   | git unstage                                             | Unstage files                                              |
+   | git reset HEAD --                                       | Unstage files                                              |
    | git clean -f -d                                         | Clean dir of untracked files and dirs                      |
    | git mergetool                                           | External merge tool                                        |
    | git remote                                              | Show remotes                                               |
@@ -56,8 +58,6 @@
 ** Checkout
    | git reset --hard <hash/branch/tag> | Reset to hash, branch or tag        |
    | git checkout <hash/branch>         | Checkout/rollback to hash or branch |
-   | git unstage                        | Unstage files                       |
-   | git reset HEAD --                  | Unstage files                       |
    |                                    |                                     |
 ** Remotes
    | git push -u origin <branch> | Push branch to remote with tracking |

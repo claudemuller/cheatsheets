@@ -55,6 +55,7 @@
    | git log -p <file>            | Show commits with diffs for <file>              |
    | git shortlog -s -n           | Show summary of authors and their commits       |
    | git log --stat               | Show log with graph of added and removed things |
+   | git log -p                   | Show log with diff                              |
    |                              |                                                 |
 ** Checkout
    | git reset --hard <hash/branch/tag> | Reset to hash, branch or tag        |

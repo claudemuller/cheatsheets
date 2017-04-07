@@ -63,10 +63,11 @@
    | git push -u origin <branch> | Push branch to remote with tracking |
    |                             |                                     |
 ** Commit
-   | git commit -am "message" | Add and commit with message |
+   | git commit -am "message" | Add and commit with message                               |
+   | git commit -a            | Add and commit                                            |
    | git reset --hard HEAD^   | Undo last commit and destroy those awful changes you made |
-   | git reset --soft HEAD^   | Undo last commit and bring changes back into staging |
-   |                          |                             |
+   | git reset --soft HEAD^   | Undo last commit and bring changes back into staging      |
+   |                          |                                                           |
 ** Tags
    | git tag                            | Show tags in repo       |
    | git push --tags origin HEAD:master | Push including tag info |

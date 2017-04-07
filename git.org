@@ -38,23 +38,24 @@
    | git fetch --all & git reset --hard oigin/<branch name>  | Force the pull to overwrite local files                    |
    |                                                         |                                                            |
 ** Log
-   | git log -n <num>             | Show <num> number of logs messages        |
-   | git show --stat <hash>       | Show the changed files for commit hash    |
-   | git show <hash>              | Show the changes for commit hash          |
-   | git diff <hash> <file>       | Show diff for file at commit hash         |
-   | git log --decorate --numstat | Show files that were changed with log     |
-   | git ls                       | Show log oneline with authors             |
-   | git ls --author=<author>     | Show log online of specific author        |
-   | git ll                       | Show files that were changed with log     |
-   | git lds                      | Show log showing dates                    |
-   | git ld                       | Show log showing relative dates           |
-   | git log -u                   | Show commits and diff of file             |
-   | git st                       | Shorter status                            |
-   | git diff HEAD <file>         | Show changes in unstaged file             |
-   | git log <file>               | Show commits for <file>                   |
-   | git log -p <file>            | Show commits with diffs for <file>        |
-   | git shortlog -s -n           | Show summary of authors and their commits |
-   |                              |                                           |
+   | git log -n <num>             | Show <num> number of logs messages              |
+   | git show --stat <hash>       | Show the changed files for commit hash          |
+   | git show <hash>              | Show the changes for commit hash                |
+   | git diff <hash> <file>       | Show diff for file at commit hash               |
+   | git log --decorate --numstat | Show files that were changed with log           |
+   | git ls                       | Show log oneline with authors                   |
+   | git ls --author=<author>     | Show log online of specific author              |
+   | git ll                       | Show files that were changed with log           |
+   | git lds                      | Show log showing dates                          |
+   | git ld                       | Show log showing relative dates                 |
+   | git log -u                   | Show commits and diff of file                   |
+   | git st                       | Shorter status                                  |
+   | git diff HEAD <file>         | Show changes in unstaged file                   |
+   | git log <file>               | Show commits for <file>                         |
+   | git log -p <file>            | Show commits with diffs for <file>              |
+   | git shortlog -s -n           | Show summary of authors and their commits       |
+   | git log --stat               | Show log with graph of added and removed things |
+   |                              |                                                 |
 ** Checkout
    | git reset --hard <hash/branch/tag> | Reset to hash, branch or tag        |
    | git checkout <hash/branch>         | Checkout/rollback to hash or branch |

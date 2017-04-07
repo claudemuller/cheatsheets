@@ -33,9 +33,14 @@
   | Ctrl-I | jump to next cursor position (after Ctrl-O) |
   |        |                                             |
 
-* Viewing COde
-  | #   | Select all occurances of string under cursor |
-  |     |                                              |
+* Viewing Code
+  | #                         | Select all occurances of string under cursor |
+  | :set foldmethod=indent    | Set indent style to indent                   |
+  | :set foldmethod=syntax    | Set indent style to syntax                   |
+  | za                        | Toggle fold                                  |
+  | zo                        | Open fold                                    |
+  | zc                        | Close fold                                   |
+  |                           |                                              |
 
 * Deletion
   | x   | Delete character at point        |

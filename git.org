@@ -11,17 +11,18 @@
    | git stash branch <branch> <stash>   | Create a branch from a stash      |
    |                                     |                                   |
 ** Branches
-   | git checkout <branch>                                         | Switch to branch                |
-   | git co <branch>                                               | Switch to branch                |
-   | git branch <branch name>                                      | Add branch                      |
-   | git checkout -b <branch>                                      | Create and switch to branch     |
-   | git push -u origin <branch>                                   | Push branch to remote and track |
-   | git branch -vv                                                | Show verbose of verbose         |
-   | git branch -d <branch>                                        | Delete local branch             |
-   | git push origin --delete <branch>                             | Delete remote branch            |
-   | git push origin <branch>                                      | Push commits to remote branch   |
-   | git checkout -b <local branch> origin/<name of remote branch> | Checkout remote branch          |
-   |                                                               |                                 |
+   | git checkout <branch>                                         | Switch to branch                                           |
+   | git co <branch>                                               | Switch to branch                                           |
+   | git branch <branch name>                                      | Add branch                                                 |
+   | git checkout -b <branch>                                      | Create and switch to branch                                |
+   | git push -u origin <branch>                                   | Push branch to remote and track                            |
+   | git branch -vv                                                | Show verbose of verbose                                    |
+   | git branch -d <branch>                                        | Delete local branch                                        |
+   | git push origin --delete <branch>                             | Delete remote branch                                       |
+   | git push origin <branch>                                      | Push commits to remote branch                              |
+   | git checkout -b <local branch> origin/<name of remote branch> | Checkout remote branch                                     |
+   | git merge --no-ff                                             | Merge with no fast-forward (ability to add info to commit) |
+   |                                                               |                                                            |
 ** Misc
    | git reset <file>                                        | Remove file from stage                                     |
    | git checkout [--] <file>                                | Revert file to original                                    |
@@ -34,7 +35,6 @@
    | git remote -v                                           | Show remotes verbose                                       |
    | git remote add origin <url>                             | Add an origin of <url> for origin                          |
    | git remote set-url origin <url>                         | Change remote url                                          |
-   | git merge --no-ff                                       | Merge with no fast-forward (ability to add info to commit) |
    | git show --pretty="" --name-only <commit>               | Show filenames in commit                                   |
    | git fetch --all & git reset --hard oigin/<branch name>  | Force the pull to overwrite local files                    |
    |                                                         |                                                            |

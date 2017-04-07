@@ -67,6 +67,7 @@
    | git commit -a            | Add and commit                                            |
    | git reset --hard HEAD^   | Undo last commit and destroy those awful changes you made |
    | git reset --soft HEAD^   | Undo last commit and bring changes back into staging      |
+   | git commit -v            | Show diff while writing message                           |
    |                          |                                                           |
 ** Tags
    | git tag                            | Show tags in repo       |

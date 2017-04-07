@@ -22,7 +22,8 @@
    | git push origin <branch>                                      | Push commits to remote branch                              |
    | git checkout -b <local branch> origin/<name of remote branch> | Checkout remote branch                                     |
    | git merge --no-ff                                             | Merge with no fast-forward (ability to add info to commit) |
-   |                                                               |                                                            |
+   | git diff <branch> <branch>                                    | See difference between branches |
+   |                                                               |                                 |
 ** Misc
    | git reset <file>                                        | Remove file from stage                                     |
    | git checkout [--] <file>                                | Revert file to original                                    |

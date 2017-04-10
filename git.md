@@ -1,5 +1,5 @@
-* Git
-** Stash
+# Git
+## Stash
    | git stash -u                        | Stash even unstaged files         |
    | git stash list                      | List all the available stashed    |
    | git stash show <id>                 | Show stash                        |
@@ -10,7 +10,7 @@
    | git stash diff stash@{0}            | Diff the changes in the stash     |
    | git stash branch <branch> <stash>   | Create a branch from a stash      |
    |                                     |                                   |
-** Branches
+## Branches
    | git checkout <branch>                                         | Switch to branch                                           |
    | git co <branch>                                               | Switch to branch                                           |
    | git branch <branch name>                                      | Add branch                                                 |
@@ -24,7 +24,7 @@
    | git merge --no-ff                                             | Merge with no fast-forward (ability to add info to commit) |
    | git diff <branch> <branch>                                    | See difference between branches                            |
    |                                                               |                                                            |
-** Misc
+## Misc
    | git reset <file>                                        | Remove file from stage                                     |
    | git checkout [--] <file>                                | Revert file to original                                    |
    | git reset --hard HEAD                                   | Revert all changes                                         |
@@ -39,7 +39,7 @@
    | git show --pretty="" --name-only <commit>               | Show filenames in commit                                   |
    | git fetch --all & git reset --hard oigin/<branch name>  | Force the pull to overwrite local files                    |
    |                                                         |                                                            |
-** Log
+## Log
    | git log -n <num>             | Show <num> number of logs messages              |
    | git show --stat <hash>       | Show the changed files for commit hash          |
    | git show <hash>              | Show the changes for commit hash                |
@@ -59,21 +59,21 @@
    | git log --stat               | Show log with graph of added and removed things |
    | git log -p                   | Show log with diff                              |
    |                              |                                                 |
-** Checkout
+## Checkout
    | git reset --hard <hash/branch/tag> | Reset to hash, branch or tag        |
    | git checkout <hash/branch>         | Checkout/rollback to hash or branch |
    |                                    |                                     |
-** Remotes
+## Remotes
    | git push -u origin <branch> | Push branch to remote with tracking |
    |                             |                                     |
-** Commit
+## Commit
    | git commit -am "message" | Add and commit with message                               |
    | git commit -a            | Add and commit                                            |
    | git reset --hard HEAD^   | Undo last commit and destroy those awful changes you made |
    | git reset --soft HEAD^   | Undo last commit and bring changes back into staging      |
    | git commit -v            | Show diff while writing message                           |
    |                          |                                                           |
-** Tags
+## Tags
    | git tag                            | Show tags in repo       |
    | git push --tags origin HEAD:master | Push including tag info |
    |                                    |                         |

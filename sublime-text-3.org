@@ -1,5 +1,0 @@
-* Sublime Text 3
-** Operations
-   | Ctrl + Shft + P | Command Palette |
-   | Ctrl + R        | Go to symbol    |
-   | Ctrl + P        | Go to anything  |

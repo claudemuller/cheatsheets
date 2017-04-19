@@ -45,14 +45,14 @@
 |                       |                                     |
 
 ## Git
-| Command               | Description                 |
-|-----------------------|-----------------------------|
-| Alt + 9               | Toggle version control pane |
-| Ctrl + Alt + A        | Add file                    |
-| Ctrl + Alt + Z        | Revert file                 |
-| Ctrl + Shft + H       | Local history for file      |
-| Ctrl + Shft + Alt + H | Local history for selection |
-|                       |                             |
+| Command               | Description                        |
+|-----------------------|------------------------------------|
+| Alt + 9               | Toggle version control pane        |
+| Ctrl + Alt + A        | Add file                           |
+| Ctrl + Alt + Z        | Revert changes under caret or file |
+| Ctrl + Shft + H       | Local history for file             |
+| Ctrl + Shft + Alt + H | Local history for selection        |
+|                       |                                    |
 
 ## Terminal
 | Command         | Description       |

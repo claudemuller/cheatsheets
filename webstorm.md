@@ -27,11 +27,11 @@
 | Ctrl + Shft + +       | Expand all                          |
 | Ctrl + Shft + -       | Collapse all                        |
 | Ctrl + Alt + +        | Expand recursively                  |
-| Ctrl + Alt + -        | Contract recursively                |
+| Ctrl + Alt + -        | Collapse recursively                |
 | Ctrl + Shft + I       | Quick definition                    |
 | Shft + K              | Show documentation for element      |
 | Alt + F7              | Find usages of symbol under carret  |
-| Ctrl + Alt + F7       | SHow usages of symbol under carret  |
+| Ctrl + Alt + F7       | Show usages of symbol under carret  |
 | Alt + F1, 1           | Find/Highlight file in project tree |
 | Ctrl + Shft + E       | Show recent file list               |
 | Ctrl + Shft + F       | Find in path                        |

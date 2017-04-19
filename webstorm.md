@@ -5,7 +5,8 @@
 |-----------------|---------------------------------------|
 | Ctrl + Shft + N | Search for filename                   |
 | Ctrl + Shft + E | To navigate to a recently edited file |
-|                 |                                       |
+| Shft, Shft      | Search everywhere                     |
+|||
 
 ## Code editing
 | Command                   | Description                 |

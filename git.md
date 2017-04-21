@@ -1,18 +1,19 @@
 # Git
 
 ## Stash
-| Command                               | Description                       |
-|---------------------------------------|-----------------------------------|
-| git stash -u                          | Stash even unstaged files         |
-| git stash list                        | List all the available stashes    |
-| git stash show `<id>`                 | Show stash                        |
-| git stash show -p                     | Show most recent stash incl. diff |
-| git stash drop `<stash>`              | Delete stash                      |
-| git stash save `<name>`               | Save stash with name              |
-| git stash apply/pop stash^{/`<name>`} | Address stash with regex          |
-| git stash diff stash@{0}              | Diff the changes in the stash     |
-| git stash branch `<branch>` `<stash>` | Create a branch from a stash      |
-|                                       |                                   |
+| Command                               | Description                                           |
+|---------------------------------------|-------------------------------------------------------|
+| git stash -u                          | Stash even unstaged files                             |
+| git stash list                        | List all the available stashes                        |
+| git stash show `<id>`                 | Show stash                                            |
+| git stash show -p                     | Show most recent stash incl. diff                     |
+| git stash drop `<stash>`              | Delete stash                                          |
+| git stash save `<name>`               | Save stash with name                                  |
+| git stash apply/pop stash^{/`<name>`} | Address stash with regex                              |
+| git stash diff stash@{0}              | Diff the changes in the stash                         |
+| git stash branch `<branch>` `<stash>` | Create a branch from a stash                          |
+| git stash -p                          | Enter into interactive mode and choose hunks to stash |
+|||
 
 ## Branches
 | Command                                                           | Description                                                       |

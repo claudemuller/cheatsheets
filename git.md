@@ -27,7 +27,9 @@
 | git push origin --delete `<branch>`                               | Delete remote branch                                              |
 | git push origin `<branch>`                                        | Push commits to remote branch                                     |
 | git checkout -b `<local branch>` origin/`<name of remote branch>` | Checkout remote branch                                            |
-| git merge --no-ff                                                 | Merge with no fast-forward (ability to add info to commit)        |
+| git merge --no-ff                                                 | Merge with no fast-forward                                        |
+| git merge -e `<branch>`                                           | Merge with with ability to edit merge message                     |
+| git merge --log[=`<n>`] `<branch>`                                | Merge with a shortlog of commits (max `<n>` commits) being merged |
 | git diff `<branch>` `<branch>`                                    | See difference between branches                                   |
 | git br                                                            | Show a list of all branches with their creation dates and authors |
 |||

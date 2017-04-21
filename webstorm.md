@@ -16,7 +16,8 @@
 | Ctrl + Q > Vim directions | Multiple cursors            |
 | Ctrl + Alt + L            | Reformat code               |
 | Ctrl + Space              | Auto-complete dialog        |
-|                           |                             |
+| Alt + insert              | Generate context menu       |
+|||
 
 ## Code viewing
 | Command               | Description                         |

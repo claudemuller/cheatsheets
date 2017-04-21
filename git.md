@@ -15,21 +15,22 @@
 |                                       |                                   |
 
 ## Branches
-| Command                                                           | Description                                                |
-|-------------------------------------------------------------------|------------------------------------------------------------|
-| git checkout `<branch>`                                           | Switch to branch                                           |
-| git co `<branch>`                                                 | Switch to branch                                           |
-| git branch `<branch name>`                                        | Add branch                                                 |
-| git checkout -b `<branch>`                                        | Create and switch to branch                                |
-| git push -u origin `<branch>`                                     | Push branch to remote and track                            |
-| git branch -vv                                                    | Show verbose of verbose                                    |
-| git branch -d `<branch>`                                          | Delete local branch                                        |
-| git push origin --delete `<branch>`                               | Delete remote branch                                       |
-| git push origin `<branch>`                                        | Push commits to remote branch                              |
-| git checkout -b `<local branch>` origin/`<name of remote branch>` | Checkout remote branch                                     |
-| git merge --no-ff                                                 | Merge with no fast-forward (ability to add info to commit) |
-| git diff `<branch>` `<branch>`                                    | See difference between branches                            |
-|                                                                   |                                                            |
+| Command                                                           | Description                                                       |
+|-------------------------------------------------------------------|-------------------------------------------------------------------|
+| git checkout `<branch>`                                           | Switch to branch                                                  |
+| git co `<branch>`                                                 | Switch to branch                                                  |
+| git branch `<branch name>`                                        | Add branch                                                        |
+| git checkout -b `<branch>`                                        | Create and switch to branch                                       |
+| git push -u origin `<branch>`                                     | Push branch to remote and track                                   |
+| git branch -vv                                                    | Show verbose of verbose                                           |
+| git branch -d `<branch>`                                          | Delete local branch                                               |
+| git push origin --delete `<branch>`                               | Delete remote branch                                              |
+| git push origin `<branch>`                                        | Push commits to remote branch                                     |
+| git checkout -b `<local branch>` origin/`<name of remote branch>` | Checkout remote branch                                            |
+| git merge --no-ff                                                 | Merge with no fast-forward (ability to add info to commit)        |
+| git diff `<branch>` `<branch>`                                    | See difference between branches                                   |
+| git br                                                            | Show a list of all branches with their creation dates and authors |
+|||
 
 ## Misc
 | Command                                                    | Description                                                |

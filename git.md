@@ -4,7 +4,7 @@
 | Command                               | Description                       |
 |---------------------------------------|-----------------------------------|
 | git stash -u                          | Stash even unstaged files         |
-| git stash list                        | List all the available stashed    |
+| git stash list                        | List all the available stashes    |
 | git stash show `<id>`                 | Show stash                        |
 | git stash show -p                     | Show most recent stash incl. diff |
 | git stash drop `<stash>`              | Delete stash                      |
@@ -35,7 +35,7 @@
 | Command                                                    | Description                                                |
 |------------------------------------------------------------|------------------------------------------------------------|
 | git reset `<file>`                                         | Remove file from stage                                     |
-| git checkout [--] `<file>`                                 | Revert file to original                                    |
+| git checkout [--] `<file>`                                 | Revert file to original (HEAD)                             |
 | git reset --hard HEAD                                      | Revert all changes                                         |
 | git unstage                                                | Unstage files                                              |
 | git reset HEAD --                                          | Unstage files                                              |

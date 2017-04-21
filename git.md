@@ -47,6 +47,9 @@
 | git remote set-url origin `<url>`                          | Change remote url                                          |
 | git show --pretty="" --name-only `<commit>`                | Show filenames in commit                                   |
 | git fetch --all & git reset --hard origin/`<branch name>`  | Force the pull to overwrite local files                    |
+| git config --global -e                                     | Open global config for editing                             |
+| git config -e                                              | Open local config for editing                              |
+| git config --system -e                                     | Open system config for editing                             |
 |                                                            |                                                            |
 
 ## Log

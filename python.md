@@ -1,17 +1,19 @@
-Python cheatsheet
+# Python cheatsheet
 
-Multi-line string
+- Multi-line string
+
 ``` python
 var = ''' This is
 a multi-line string'''
 ```
 
-Format a string
+- Format a string
+
 ``` python
 print("%s %s" % ("one", "two"))
 ```
 
-* Lists
+## Lists
   list.append(val)
   list.insert(location, val)
   list.remove(val)
@@ -20,7 +22,7 @@ print("%s %s" % ("one", "two"))
   del list[1]
   len(list)
 
-* File operations
+## File operations
   # open file for (r)ead or (w)rite
   f = open.('filename.txt', 'r')  # 'w'
 
@@ -36,7 +38,7 @@ print("%s %s" % ("one", "two"))
   # close file
   f.close()
 
-* VirtualEnv
+## VirtualEnv
   cd the_project_in_question
   virtualenv env_name
   # virtualenv -p /usr/bin/python2.7 env_name     # for python version specific
@@ -45,15 +47,18 @@ print("%s %s" % ("one", "two"))
 
   pip freeze > requirements.txt                   # save a list of requirements
   pip install -r requirements.txt                 # install from list
-* Tuples
-Tuples do NOT need surrounding ()'s
 
-Tuple assignment
+## Tuples
+- Tuples do NOT need surrounding ()'s
+
+*Tuple assignment*
+
 ``` python
   a, b = 3, 1
 ```
 
-Gather parameter - multiple arguments
+- Gather parameter - multiple arguments
+
 ``` python
 def a_function(*args):
     pass
@@ -61,20 +66,22 @@ def a_function(*args):
 a_function(1, 2, 3)
 ```
 
-Scatter parameter - scatter tuple into multiple parameters
+- Scatter parameter - scatter tuple into multiple parameters
+
 ``` python
 t = (1, 2)
 a_function(*t)
 ```
-* Tkinter
-    Tkinter → tkinter
-    tkMessageBox → tkinter.messagebox
-    tkColorChooser → tkinter.colorchooser
-    tkFileDialog → tkinter.filedialog
-    tkCommonDialog → tkinter.commondialog
-    tkSimpleDialog → tkinter.simpledialog
-    tkFont → tkinter.font
-    Tkdnd → tkinter.dnd
-    ScrolledText → tkinter.scrolledtext
-    Tix → tkinter.tix
-    ttk → tkinter.ttk
+
+## Tkinter
+  - Tkinter → tkinter
+  - tkMessageBox → tkinter.messagebox
+  - tkColorChooser → tkinter.colorchooser
+  - tkFileDialog → tkinter.filedialog
+  - tkCommonDialog → tkinter.commondialog
+  - tkSimpleDialog → tkinter.simpledialog
+  - tkFont → tkinter.font
+  - Tkdnd → tkinter.dnd
+  - ScrolledText → tkinter.scrolledtext
+  - Tix → tkinter.tix
+  - ttk → tkinter.ttk

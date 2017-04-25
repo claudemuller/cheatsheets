@@ -9,14 +9,15 @@
 |||
 
 ## Code editing
-| Command                   | Description                 |
-|---------------------------|-----------------------------|
-| Ctrl + /                  | Comment/Uncomment lines     |
-| Ctrl + Shft + F           | Search code base for string |
-| Ctrl + Q > Vim directions | Multiple cursors            |
-| Ctrl + Alt + L            | Reformat code               |
-| Ctrl + Space              | Auto-complete dialog        |
-| Alt + insert              | Generate context menu       |
+| Command                   | Description                                                           |
+|---------------------------|-----------------------------------------------------------------------|
+| Ctrl + /                  | Comment/Uncomment lines                                               |
+| Ctrl + Shft + F           | Search code base for string                                           |
+| Ctrl + Q > Vim directions | Multiple cursors                                                      |
+| Ctrl + Alt + L            | Reformat code                                                         |
+| Ctrl + Space              | Auto-complete dialog                                                  |
+| Alt + insert              | Generate context menu                                                 |
+| Ctrl + Shft + Alt + J     | Select and change all occurances of word under caret (in insert mode) |
 |||
 
 ## Code viewing

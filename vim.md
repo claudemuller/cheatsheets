@@ -46,6 +46,9 @@
 | za                        | Toggle fold                                  |
 | zo                        | Open fold                                    |
 | zc                        | Close fold                                   |
+| zA                        | Toggle fold recursively                      |
+| zO                        | Open fold recursively                        |
+| zC                        | Close fold recursively                       |
 |                           |                                              |
 
 ## Deletion

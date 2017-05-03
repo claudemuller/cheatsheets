@@ -5,6 +5,7 @@
 |-----------------|---------------------------------------|
 | Ctrl + Shft + N | Search for filename                   |
 | Ctrl + Shft + E | To navigate to a recently edited file |
+| Ctrl + E        | To navigate to a recently files       |
 | Shft, Shft      | Search everywhere                     |
 |||
 

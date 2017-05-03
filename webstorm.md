@@ -46,6 +46,7 @@
 | Ctrl + Shft + Alt + Z | Navigate back                       |
 | Ctrl + Shft + Alt + X | Navigate forward                    |
 | Ctrl + Q              | View documentation                  |
+| Ctrl + Shft + I       | Pop up definition                   |
 |                       |                                     |
 
 ## Git

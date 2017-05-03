@@ -5,6 +5,7 @@
 |---------------------------------------|-------------------------------------------------------|
 | git stash                             | Stash working copy                                    |
 | git stash pop                         | Pop most recent stash                                 |
+| git stash drop                        | Drop most recent stash                                |
 | git stash -u                          | Stash even unstaged files                             |
 | git stash list                        | List all the available stashes                        |
 | git stash show `<id>`                 | Show stash                                            |

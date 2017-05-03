@@ -40,7 +40,6 @@
 |------------------------------------------------------------|------------------------------------------------------------|
 | git reset `<file>`                                         | Remove file from stage                                     |
 | git checkout [--] `<file>`                                 | Revert file to original (HEAD)                             |
-| git reset --hard HEAD                                      | Revert all changes                                         |
 | git unstage                                                | Unstage files                                              |
 | git reset HEAD --                                          | Unstage files                                              |
 | git clean -f -d                                            | Clean dir of untracked files and dirs                      |
@@ -93,6 +92,7 @@
 | Command                              | Description                         |
 |--------------------------------------|-------------------------------------|
 | git reset --hard `<hash/branch/tag>` | Reset to hash, branch or tag        |
+| git reset --hard [HEAD]              | Revert all changes to HEAD          |
 | git checkout `<hash/branch>`         | Checkout/rollback to hash or branch |
 |                                      |                                     |
 

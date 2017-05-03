@@ -72,17 +72,17 @@
 |                 |                   |
 
 ## Panes
-| Command         | Description            |
-|-----------------|------------------------|
-| Alt + 1         | Show/hide project pane |
-| Alt + 6         | Show/hide TODO pane    |
-|                 |                        |
+| Command                  | Description               |
+|--------------------------|---------------------------|
+| Alt + 1                  | Show/hide project pane    |
+| Alt + 6                  | Show/hide TODO pane       |
+| Ctrl + Shft + Left/Right | Resize file explorer pane |
+|                          |                           |
 
 ## Misc
 | Command                  | Description               |
 |--------------------------|---------------------------|
 | Ctrl + Shft + A          | Find action               |
-| Ctrl + Shft + Left/Right | Resize file explorer pane |
 |||
 
 

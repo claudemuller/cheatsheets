@@ -51,6 +51,8 @@
 | git remote set-url origin `<url>`                          | Change remote url                                          |
 | git show --pretty="" --name-only `<commit>`                | Show filenames in commit                                   |
 | git fetch --all & git reset --hard origin/`<branch name>`  | Force the pull to overwrite local files                    |
+| git add -u                                                 | Add updated tracked files to stage                         |
+| git add -A                                                 | Add all tracked and untracked files to stage               |
 |||
 
 ## Config
@@ -68,6 +70,9 @@
 | git show --stat `<hash>`     | Show the changed files for commit hash          |
 | git show `<hash>`            | Show the changes for commit hash                |
 | git diff `<hash>` `<file>`   | Show diff for file at commit hash               |
+| git diff `<hash>`..`<hash>`  | Show diff between two hashes                    |
+| git diff HEAD~1..HEAD        | Show diff for one behind HEAD (HEAD~1) and HEAD |
+| git diff `<hash>`..          | Show diff for hash and HEAD                     |
 | git log --decorate --numstat | Show files that were changed with log           |
 | git ls                       | Show log oneline with authors                   |
 | git ls --author=`<author>`   | Show log online of specific author              |

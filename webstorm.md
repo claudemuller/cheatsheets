@@ -21,6 +21,7 @@
 | Ctrl + Shft + Alt + J     | Select and change all occurances of word under caret (in insert mode) |
 | Ctrl + Alt + M            | Extract code into method/function/property                            |
 | Ctrl + Alt + Ins          | Create new file in directory                                          |
+| Ctrl + Shft + V           | Show content paste pop up                                             |
 |||
 
 ## Code viewing

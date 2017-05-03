@@ -13,6 +13,7 @@
 | Command                   | Description                                                           |
 |---------------------------|-----------------------------------------------------------------------|
 | Ctrl + /                  | Comment/Uncomment lines                                               |
+| Ctrl + Shft + /           | Comment/Uncomment block                                               |
 | Ctrl + Shft + F           | Search code base for string                                           |
 | Ctrl + Q > Vim directions | Multiple cursors                                                      |
 | Ctrl + Alt + L            | Reformat code                                                         |

@@ -77,9 +77,10 @@
 |                 |                        |
 
 ## Misc
-| Command         | Description |
-|-----------------|-------------|
-| Ctrl + Shft + A | Find action |
-|                 |             |
+| Command                  | Description               |
+|--------------------------|---------------------------|
+| Ctrl + Shft + A          | Find action               |
+| Ctrl + Shft + Left/Right | Resize file explorer pane |
+|||
 
 

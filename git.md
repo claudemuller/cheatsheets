@@ -88,7 +88,7 @@
 | git diff HEAD `<file>`       | Show changes in unstaged file                   |
 | git log `<file>`             | Show commits for `<file>`                       |
 | git log -p `<file>`          | Show commits with diffs for `<file>`            |
-| git shortlog -s -n           | Show summary of authors and their commits       |
+| git shortlog -s -n -e        | Show summary of authors and their commits       |
 | git log --stat               | Show log with graph of added and removed things |
 | git log -p                   | Show log with diff                              |
 |                              |                                                 |

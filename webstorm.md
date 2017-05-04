@@ -24,6 +24,7 @@
 | Ctrl + Alt + T            | Surround selection with template                                      |
 | Ctrl + Alt + Ins          | Create new file in directory                                          |
 | Ctrl + Shft + V           | Show content paste pop up                                             |
+| Ctrl + Alt + Shft + T     | Bring up refactor this pop up                                         |
 |||
 
 ## Code viewing

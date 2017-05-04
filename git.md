@@ -94,14 +94,15 @@
 |                              |                                                 |
 
 ## Checkout
-| Command                              | Description                                                  |
-|--------------------------------------|--------------------------------------------------------------|
-| git reset --hard `<hash/branch/tag>` | Reset to hash, branch or tag                                 |
-| git reset --hard [HEAD]              | Revert all changes to HEAD                                   |
-| git reset --soft HEAD~1              | Rollback/undo to last commit put files in working copy area  |
-| git reset --hard HEAD~1              | Rollback/undo to last commit discard files from commit       |
-| git checkout `<hash/branch>`         | Checkout/rollback to hash or branch                          |
-|                                      |                                                              |
+| Command                                | Description                                                  |
+|----------------------------------------|--------------------------------------------------------------|
+| git reset --hard `<hash/branch/tag>`   | Reset to hash, branch or tag                                 |
+| git reset --hard [HEAD]                | Revert all changes to HEAD                                   |
+| git reset --soft HEAD~1                | Rollback/undo to last commit put files in working copy area  |
+| git reset --hard HEAD~1                | Rollback/undo to last commit discard files from commit       |
+| git checkout `<hash/branch>`           | Checkout/rollback to hash or branch                          |
+| git co `<hash>` `<file_path_and_name>` | Checkout `<file>` from `<hash>`                              |
+|                                        |                                                              |
 
 ## Remotes
 | Command                       | Description                         |

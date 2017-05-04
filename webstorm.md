@@ -51,6 +51,8 @@
 | Ctrl + Q              | View documentation                  |
 | Ctrl + Shft + I       | Pop up definition                   |
 | Ctrl + Alt + Shft + N | Search for symbol                   |
+| Ctrl + Shft + H       | Local history for file              |
+| Ctrl + Shft + Alt + H | Local history for selection         |
 |                       |                                     |
 
 ## Git
@@ -59,8 +61,8 @@
 | Alt + 9               | Toggle version control pane        |
 | Ctrl + Alt + A        | Add file                           |
 | Ctrl + Alt + Z        | Revert changes under caret or file |
-| Ctrl + Shft + H       | Local history for file             |
-| Ctrl + Shft + Alt + H | Local history for selection        |
+| Ctrl + Shft + G       | Show git history                   |
+| Ctrl + Shft + Alt + G | Show git history for selection     |
 |                       |                                    |
 
 ## Terminal

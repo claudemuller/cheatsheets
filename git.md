@@ -36,6 +36,7 @@
 | git merge --log[=`<n>`] `<branch>`                                | Merge with a shortlog of commits (max `<n>` commits) being merged |
 | git diff `<branch>` `<branch>`                                    | See difference between branches                                   |
 | git br                                                            | Show a list of all branches with their creation dates and authors |
+| git branch --set-upstream `<branch>` `<remote>/<branch>`          | Set up tracking between local and remote branches                 |
 |||
 
 ## Misc
@@ -53,6 +54,7 @@
 | git remote -v                                              | Show remotes verbose                                                |
 | git remote add origin `<url>`                              | Add an origin of `<url>` for origin                                 |
 | git remote set-url origin `<url>`                          | Change remote url                                                   |
+| git remote rm origin                                       | Remove remote url                                                   |
 | git show --pretty="" --name-only `<commit>`                | Show filenames in commit                                            |
 | git fetch --all & git reset --hard origin/`<branch name>`  | Force the pull to overwrite local files                             |
 | git fetch [`<remote>`]                                     | Fetch changes                                                       |

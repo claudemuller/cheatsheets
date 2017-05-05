@@ -39,24 +39,26 @@
 |||
 
 ## Misc
-| Command                                                    | Description                                                |
-|------------------------------------------------------------|------------------------------------------------------------|
-| git reset `<file>`                                         | Remove file from stage                                     |
-| git checkout [--] `<file>`                                 | Revert file to original (HEAD)                             |
-| git unstage                                                | Unstage files                                              |
-| git reset HEAD --                                          | Unstage files                                              |
-| git clean -n                                               | What would the clean command do                            |
-| git clean                                                  | Clean all files in working copy                            |
-| git clean -f -d                                            | Clean dir of untracked files and dirs                      |
-| git mergetool                                              | External merge tool                                        |
-| git remote                                                 | Show remotes                                               |
-| git remote -v                                              | Show remotes verbose                                       |
-| git remote add origin `<url>`                              | Add an origin of `<url>` for origin                        |
-| git remote set-url origin `<url>`                          | Change remote url                                          |
-| git show --pretty="" --name-only `<commit>`                | Show filenames in commit                                   |
-| git fetch --all & git reset --hard origin/`<branch name>`  | Force the pull to overwrite local files                    |
-| git add -u                                                 | Add updated tracked files to stage                         |
-| git add -A                                                 | Add all tracked and untracked files to stage               |
+| Command                                                    | Description                                                         |
+|------------------------------------------------------------|---------------------------------------------------------------------|
+| git reset `<file>`                                         | Remove file from stage                                              |
+| git checkout [--] `<file>`                                 | Revert file to original (HEAD)                                      |
+| git unstage                                                | Unstage files                                                       |
+| git reset HEAD --                                          | Unstage files                                                       |
+| git clean -n                                               | What would the clean command do                                     |
+| git clean                                                  | Clean all files in working copy                                     |
+| git clean -f -d                                            | Clean dir of untracked files and dirs                               |
+| git mergetool                                              | External merge tool                                                 |
+| git remote                                                 | Show remotes                                                        |
+| git remote -v                                              | Show remotes verbose                                                |
+| git remote add origin `<url>`                              | Add an origin of `<url>` for origin                                 |
+| git remote set-url origin `<url>`                          | Change remote url                                                   |
+| git show --pretty="" --name-only `<commit>`                | Show filenames in commit                                            |
+| git fetch --all & git reset --hard origin/`<branch name>`  | Force the pull to overwrite local files                             |
+| git fetch [`<remote>`]                                     | Fetch changes                                                       |
+| git pull                                                   | Fetch changes and merge (git fetch && git merge `<remote>/<branch>` |
+| git add -u                                                 | Add updated tracked files to stage                                  |
+| git add -A                                                 | Add all tracked and untracked files to stage                        |
 |||
 
 ## Config

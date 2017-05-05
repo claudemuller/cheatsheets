@@ -128,6 +128,9 @@
 | Command                            | Description             |
 |------------------------------------|-------------------------|
 | git tag                            | Show tags in repo       |
+| git tag `<tag>`                    | Add tag                 |
+| git tag -a `<tag>`                 | Add tag with message    |
+| git push --tags                    | Push tag info           |
 | git push --tags origin HEAD:master | Push including tag info |
 |                                    |                         |
 

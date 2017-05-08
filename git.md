@@ -62,6 +62,7 @@
 | git pull                                                   | Fetch changes and merge (git fetch && git merge `<remote>/<branch>` |
 | git add -u                                                 | Add updated tracked files to stage                                  |
 | git add -A                                                 | Add all tracked and untracked files to stage                        |
+| git reflog                                                 | Show all references where HEAD has pointed to                       |
 |||
 
 ## Config

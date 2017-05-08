@@ -84,6 +84,7 @@
 | git diff `<hash>`..`<hash>`  | Show diff between two hashes                    |
 | git diff HEAD~1..HEAD        | Show diff for one behind HEAD (HEAD~1) and HEAD |
 | git diff `<hash>`..          | Show diff for hash and HEAD                     |
+| git diff --cached            | Show diff for HEAD and stage                    |
 | git log --decorate --numstat | Show files that were changed with log           |
 | git ls                       | Show log oneline with authors                   |
 | git ls --author=`<author>`   | Show log online of specific author              |

@@ -66,6 +66,7 @@
 | Ctrl + Alt + Z        | Revert changes under caret or file |
 | Ctrl + Shft + G       | Show git history                   |
 | Ctrl + Shft + Alt + G | Show git history for selection     |
+| Alt + back tick       | VCS pop up                         |
 |                       |                                    |
 
 ## Terminal

@@ -138,3 +138,11 @@
 | git push --tags origin HEAD:master | Push including tag info |
 |                                    |                         |
 
+# Submodules
+| Command              | Description              |
+|----------------------|--------------------------|
+| git submodule        | List all submodules      |
+| git submodule update | Pull down all submodules |
+|||
+
+

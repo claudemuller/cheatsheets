@@ -38,6 +38,7 @@
 | git br                                                            | Show a list of all branches with their creation dates and authors |
 | git branch --set-upstream `<branch>` `<remote>/<branch>`          | Set up tracking between local and remote branches                 |
 | git branch -m `<branch_name>` `<branch_name>`                     | Rename branch                                                     |
+| git branch `<branch_name>` `<hash>`                               | Create a branch from `<hash>` (can be done from reflog also)      |
 |||
 
 ## Misc
@@ -62,7 +63,7 @@
 | git pull                                                   | Fetch changes and merge (git fetch && git merge `<remote>/<branch>` |
 | git add -u                                                 | Add updated tracked files to stage                                  |
 | git add -A                                                 | Add all tracked and untracked files to stage                        |
-| git reflog                                                 | Show all references where HEAD has pointed to                       |
+| git reflog                                                 | Show all references where HEAD has pointed to for last 30 days      |
 |||
 
 ## Config

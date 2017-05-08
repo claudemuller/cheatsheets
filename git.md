@@ -37,6 +37,7 @@
 | git diff `<branch>` `<branch>`                                    | See difference between branches                                   |
 | git br                                                            | Show a list of all branches with their creation dates and authors |
 | git branch --set-upstream `<branch>` `<remote>/<branch>`          | Set up tracking between local and remote branches                 |
+| git branch -m `<branch_name>` `<branch_name>`                     | Rename branch                                                     |
 |||
 
 ## Misc

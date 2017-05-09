@@ -25,7 +25,7 @@
 |-------------------------------------------------------------------|-------------------------------------------------------------------|
 | git checkout `<branch>`                                           | Switch to branch                                                  |
 | git co `<branch>`                                                 | Switch to branch                                                  |
-| git branch `<branch name>`                                        | Add branch                                                        |
+| git branch `<branch name>` [`<commit_hash>`/`<tag>`]              | Add branch                                                        |
 | git checkout -b `<branch>`                                        | Create and switch to branch                                       |
 | git push -u origin `<branch>`                                     | Push branch to remote and track                                   |
 | git branch -vv                                                    | Show verbose of verbose                                           |

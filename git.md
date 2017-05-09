@@ -31,6 +31,7 @@
 | git branch -vv                                                    | Show verbose of verbose (incl. tracking branches)                 |
 | git branch -d `<branch>`                                          | Delete local branch                                               |
 | git push origin --delete `<branch>`                               | Delete remote branch                                              |
+| git push origin :`<remote_branch>`                                | Delete remote branch                                              |
 | git push origin `<branch>`[:`<remote_branch_name>`]               | Push commits to remote branch                                     |
 | git checkout -b `<local branch>` origin/`<name of remote branch>` | Checkout remote branch                                            |
 | git merge --no-ff                                                 | Merge with no fast-forward                                        |

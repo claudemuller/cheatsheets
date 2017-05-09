@@ -25,7 +25,7 @@
 |-------------------------------------------------------------------|-------------------------------------------------------------------|
 | git checkout `<branch>`                                           | Switch to branch                                                  |
 | git co `<branch>`                                                 | Switch to branch                                                  |
-| git branch `<branch name>` [`<commit_hash>`/`<tag>`]              | Add branch                                                        |
+| git branch `<branch name>` [`<branch>`/`<commit_hash>`/`<tag>`]   | Add branch                                                        |
 | git checkout -b `<branch>`                                        | Create and switch to branch                                       |
 | git push -u origin `<branch>`                                     | Push branch to remote and track                                   |
 | git branch -vv                                                    | Show verbose of verbose                                           |
@@ -66,6 +66,7 @@
 | git add -u                                                 | Add updated tracked files to stage                                  |
 | git add -A                                                 | Add all tracked and untracked files to stage                        |
 | git reflog                                                 | Show all references where HEAD has pointed to for last 30 days      |
+| git cherry-pick `<hash>`                                   | Cherry pick hash into current branch                                |
 |||
 
 ## Config

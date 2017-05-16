@@ -47,7 +47,6 @@
 | Ctrl + TAB            | Switch open files                   |
 | Ctrl + P              | View parameters                     |
 | F4                    | Jump to source                      |
-| Alt + F7              | Find usages of text under cursor    |
 | Ctrl + B              | Jump to definition                  |
 | Ctrl + Shft + Alt + Z | Navigate back                       |
 | Ctrl + Shft + Alt + X | Navigate forward                    |

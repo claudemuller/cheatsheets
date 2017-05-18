@@ -103,6 +103,7 @@
 | git shortlog -s -n -e            | Show summary of authors and their commits       |
 | git log --stat                   | Show log with graph of added and removed things |
 | git log -p                       | Show log with diff                              |
+| git log --follow `<filename>`    | List commits for `<filename>`                   |
 |                                  |                                                 |
 
 ## Checkout

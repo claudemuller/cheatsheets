@@ -67,6 +67,7 @@
 | Ctrl + Shft + Alt + G | Show git history for selection     |
 | Alt + back tick       | VCS pop up                         |
 | Alt + back tick > 5   | Annotate margin                    |
+| Ctrl + K              | Bring up commit changes            |
 |                       |                                    |
 
 ## Terminal

@@ -29,12 +29,12 @@
 | gg       | Jump to beginning of file                   |
 | %        | Matching parenthesis                        |
 | `<num>`G | Jump to `<num>` line number                 |
-| Ctrl-D   | move half-page down                         |
-| Ctrl-U   | move half-page up                           |
-| Ctrl-B   | page up                                     |
-| Ctrl-F   | page down                                   |
-| Ctrl-O   | jump to last (older) cursor position        |
-| Ctrl-I   | jump to next cursor position (after Ctrl-O) |
+| Ctrl-D   | Move half-page down                         |
+| Ctrl-U   | Move half-page up                           |
+| Ctrl-B   | Page up                                     |
+| Ctrl-F   | Page down                                   |
+| Ctrl-O   | Jump to last (older) cursor position        |
+| Ctrl-I   | Jump to next cursor position (after Ctrl-O) |
 |          |                                             |
 
 ## Viewing Code

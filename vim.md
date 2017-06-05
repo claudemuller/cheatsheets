@@ -101,6 +101,7 @@
 | C                     | Clear from point and enter insert mode |
 | gg=G                  | Reindent code                          |
 | =%                    | Reindent this block of code            |
+| :norm i#              | Insert #'s at the beginning of line(s) |
 |                       |                                        |
 
 ## Windows & Tabs

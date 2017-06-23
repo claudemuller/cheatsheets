@@ -52,7 +52,6 @@
 | Ctrl + Shft + Alt + Z | Navigate back                       |
 | Ctrl + Shft + Alt + X | Navigate forward                    |
 | Ctrl + Q              | View documentation                  |
-| Ctrl + Shft + I       | Pop up definition                   |
 | Ctrl + Alt + Shft + N | Search for symbol                   |
 | Ctrl + Shft + H       | Local history for file              |
 | Ctrl + Shft + Alt + H | Local history for selection         |

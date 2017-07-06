@@ -20,7 +20,9 @@
 | Ctrl + Alt + L            | Reformat code                                                         |
 | Ctrl + Space              | Auto-complete dialog                                                  |
 | Alt + insert              | Generate context menu                                                 |
-| Ctrl + Shft + Alt + J     | Select and change all occurances of word under caret (in insert mode) |
+| Alt + J                   | Select and change all occurances of word under caret (in insert mode) |
+| Ctrl + Shft + Alt + J     | Clone carets down                                                     |
+| Ctrl + Shft + Alt + K     | Clone carets up                                                       |
 | Ctrl + Alt + M            | Extract code into method/function/property                            |
 | Ctrl + Alt + T            | Surround selection with template                                      |
 | Ctrl + Alt + Ins          | Create new file in directory                                          |

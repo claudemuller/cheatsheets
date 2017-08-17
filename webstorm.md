@@ -57,6 +57,9 @@
 | Ctrl + Alt + Shft + N | Search for symbol                   |
 | Ctrl + Shft + H       | Local history for file              |
 | Ctrl + Shft + Alt + H | Local history for selection         |
+| F11                   | Create Bookmark at line             |
+| Ctrl + F11            | Create a bookmark with mnemonic     |
+| Shft + F11            | Show bookmarks                      |
 |                       |                                     |
 
 ## Git

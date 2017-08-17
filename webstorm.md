@@ -90,6 +90,14 @@
 | Ctrl + Shft + Left/Right | Resize file explorer pane |
 |                          |                           |
 
+## Testing
+| Command                  | Description               |
+|--------------------------|---------------------------|
+| Shft + Alt + R           | Rerun tests               |
+| Ctrl + Shft + F10        | Run test(s) at caret      |
+|||
+
+
 ## Misc
 | Command                  | Description               |
 |--------------------------|---------------------------|

@@ -60,6 +60,7 @@
 | git remote add origin `<url>`                              | Add an origin of `<url>` for origin                                 |
 | git remote set-url origin `<url>`                          | Change remote url                                                   |
 | git remote rm origin                                       | Remove remote url                                                   |
+| git remote prune <remote>                                  | Prune refs to branches that aren't there anymore                    |
 | git show --pretty="" --name-only `<commit>`                | Show filenames in commit                                            |
 | git fetch --all & git reset --hard origin/`<branch name>`  | Force the pull to overwrite local files                             |
 | git fetch [`<remote>`]                                     | Fetch changes                                                       |

@@ -80,32 +80,33 @@
 |||
 
 ## Log
-| Command                          | Description                                      |
-|----------------------------------|--------------------------------------------------|
-| git log -n `<num>`               | Show `<num>` number of logs messages             |
-| git show --stat `<hash>`         | Show the changed files for commit hash           |
-| git show `<hash>`                | Show the changes for commit hash                 |
-| git diff `<hash>` `<file>`       | Show diff for file at commit hash                |
-| git diff `<hash>`..`<hash>`      | Show diff between two hashes                     |
-| git diff HEAD~1..HEAD            | Show diff for one behind HEAD (HEAD~1) and HEAD  |
-| git diff `<hash>`..              | Show diff for hash and HEAD                      |
-| git diff --cached [`<filename>`] | Show diff for HEAD and stage                     |
-| git log --decorate --numstat     | Show files that were changed with log            |
-| git ls                           | Show log oneline with authors                    |
-| git ls --author=`<author>`       | Show log online of specific author               |
-| git ll                           | Show files that were changed with log            |
-| git lds                          | Show log showing dates                           |
-| git ld                           | Show log showing relative dates                  |
-| git log -u                       | Show commits and diff of file                    |
-| git st                           | Shorter status                                   |
-| git diff HEAD `<file>`           | Show changes in unstaged file                    |
-| git log `<file>`                 | Show commits for `<file>`                        |
-| git log -p `<revision>` `<file>` | Show commits with diffs for `<file>` at revision |
-| git shortlog -s -n -e            | Show summary of authors and their commits        |
-| git log --stat                   | Show log with graph of added and removed things  |
-| git log -p                       | Show log with diff                               |
-| git log --follow `<filename>`    | List commits for `<filename>`                    |
-|                                  |                                                  |
+| Command                                        | Description                                      |
+|------------------------------------------------|--------------------------------------------------|
+| git log -n `<num>`                             | Show `<num>` number of logs messages             |
+| git show --stat `<hash>`                       | Show the changed files for commit hash           |
+| git show `<hash>`                              | Show the changes for commit hash                 |
+| git diff `<hash>` `<file>`                     | Show diff for file at commit hash                |
+| git diff `<hash>`..`<hash>`                    | Show diff between two hashes                     |
+| git diff HEAD~1..HEAD                          | Show diff for one behind HEAD (HEAD~1) and HEAD  |
+| git diff `<hash>`..                            | Show diff for hash and HEAD                      |
+| git diff --cached [`<filename>`]               | Show diff for HEAD and stage                     |
+| git log --decorate --numstat                   | Show files that were changed with log            |
+| git ls                                         | Show log oneline with authors                    |
+| git ls --author=`<author>`                     | Show log online of specific author               |
+| git ll                                         | Show files that were changed with log            |
+| git lds                                        | Show log showing dates                           |
+| git ld                                         | Show log showing relative dates                  |
+| git log -u                                     | Show commits and diff of file                    |
+| git st                                         | Shorter status                                   |
+| git diff HEAD `<file>`                         | Show changes in unstaged file                    |
+| git log `<file>`                               | Show commits for `<file>`                        |
+| git log -p `<revision>` `<file>`               | Show commits with diffs for `<file>` at revision |
+| git shortlog -s -n -e                          | Show summary of authors and their commits        |
+| git log --stat                                 | Show log with graph of added and removed things  |
+| git log -p                                     | Show log with diff                               |
+| git log --follow `<filename>`                  | List commits for `<filename>`                    |
+| git log --all --full-history -- <path-to-file> | Show log for deleted file                        |
+|                                                |                                                  |
 
 ## Checkout
 | Command                                | Description                                                  |

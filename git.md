@@ -55,13 +55,14 @@
 | git clean                                                  | Clean all files in working copy                                     |
 | git clean -f -d                                            | Clean dir of untracked files and dirs                               |
 | git mergetool                                              | External merge tool                                                 |
+| git merge --abort                                          | Cancel/abort merge                                                  |
 | git remote                                                 | Show remotes                                                        |
 | git remote -v                                              | Show remotes verbose                                                |
 | git remote add origin `<url>`                              | Add an origin of `<url>` for origin                                 |
 | git remote set-url origin `<url>`                          | Change remote url                                                   |
 | git remote rm origin                                       | Remove remote url                                                   |
 | git remote prune <remote>                                  | Prune refs to branches that aren't there anymore                    |
-| git show --pretty="" --name-only `<commit>`                | Show filenames in commit                                            |
+| git show --pretty="" --name-only `<commit>`                | Show filenames in commit            g                               |
 | git fetch --all & git reset --hard origin/`<branch name>`  | Force the pull to overwrite local files                             |
 | git fetch [`<remote>`]                                     | Fetch changes                                                       |
 | git pull                                                   | Fetch changes and merge (git fetch && git merge `<remote>/<branch>` |

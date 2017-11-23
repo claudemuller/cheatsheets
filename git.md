@@ -151,6 +151,7 @@
 | git submodule update [--init --recursive]              | Pull down all submodules                           |
 | git submodule add `<submodule_url>` `<submodule_name>` | Add submodule to repo                              |
 | git clone --recursive `<project_url>`                  | Clone repo including submodules and their contents |
+| git submodule update --recursive --remote              | Update submodule                                   |
 |||
 
 

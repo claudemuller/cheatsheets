@@ -10,6 +10,7 @@
 | git stash list                                 | List all the available stashes                        |
 | git stash show `<id>`                          | Show stash                                            |
 | git stash show -p                              | Show most recent stash incl. diff                     |
+| git show `<stash>`                             | Show the contents of the stash                        |
 | git stash drop `<stash>`                       | Delete stash                                          |
 | git stash save `<name>`                        | Save stash with name                                  |
 | git stash apply/pop stash^{/`<name>`}          | Address stash with regex                              |

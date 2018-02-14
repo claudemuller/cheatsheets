@@ -28,6 +28,8 @@
 | Ctrl + Alt + Ins          | Create new file in directory                                          |
 | Ctrl + Shft + V           | Show content paste pop up                                             |
 | Ctrl + Alt + Shft + T     | Bring up refactor this pop up                                         |
+| Ctrl + Shft + Z           | Redo                                                                  |
+| Ctrl + Alt + Y            | Synchronise project                                                   |
 |||
 
 ## Code viewing

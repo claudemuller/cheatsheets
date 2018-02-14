@@ -43,6 +43,7 @@
 | git branch --set-upstream `<branch>` `<remote>/<branch>`          | Set up tracking between local and remote branches                 |
 | git branch -m `<branch_name>` `<branch_name>`                     | Rename branch                                                     |
 | git branch `<branch_name>` `<hash>`                               | Create a branch from `<hash>` (can be done from reflog also)      |
+| git branch --contains `<branch_to_delete>`                        | Compare the current branch to the branch to delete                |
 |||
 
 ## Misc

@@ -129,6 +129,7 @@
 | U           | Fix whole line        |
 | :w          | Save                  |
 | :wq         | Save & quit           |
+| Shft + zz   | Save & quit           |
 | :!          | Execute shell command |
 | v           | Select                |
 | :r filename | Retrieve filename     |

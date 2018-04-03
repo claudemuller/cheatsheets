@@ -109,6 +109,7 @@
 | git log -p                                     | Show log with diff                               |
 | git log --follow `<filename>`                  | List commits for `<filename>`                    |
 | git log --all --full-history -- <path-to-file> | Show log for deleted file                        |
+| git log -S'`searchTerm`' -- `<filename>`       | Search for occurance of string in file's history |
 |                                                |                                                  |
 
 ## Checkout

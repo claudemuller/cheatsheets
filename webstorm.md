@@ -90,6 +90,7 @@
 | Alt + 1                  | Show/hide project pane    |
 | Alt + 6                  | Show/hide TODO pane       |
 | Ctrl + Shft + Left/Right | Resize file explorer pane |
+| Alt + F11                | NPM/Grunt/Gulp task pane  |
 |                          |                           |
 
 ## Testing

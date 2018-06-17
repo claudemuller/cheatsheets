@@ -86,6 +86,8 @@
 | O                     | New line above point                   |
 | y                     | Yank/copy selection                    |
 | p                     | Paste                                  |
+| " * y			| Yank to system clipboard 		 |
+| " * p			| Paste to system clipboard 		 |
 | ~                     | Upper/lowercase character              |
 | >                     | Indent of code                         |
 | cs"'                  | Inside "" change to ''                 |

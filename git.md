@@ -10,6 +10,7 @@
 | git stash list                                 | List all the available stashes                        |
 | git stash show `<id>`                          | Show stash                                            |
 | git stash show -p                              | Show most recent stash incl. diff                     |
+| git show `<stash>`                             | Show the contents of the stash                        |
 | git stash drop `<stash>`                       | Delete stash                                          |
 | git stash save `<name>`                        | Save stash with name                                  |
 | git stash apply/pop stash^{/`<name>`}          | Address stash with regex                              |
@@ -42,6 +43,7 @@
 | git branch --set-upstream `<branch>` `<remote>/<branch>`          | Set up tracking between local and remote branches                 |
 | git branch -m `<branch_name>` `<branch_name>`                     | Rename branch                                                     |
 | git branch `<branch_name>` `<hash>`                               | Create a branch from `<hash>` (can be done from reflog also)      |
+| git branch --contains `<branch_to_delete>`                        | Compare the current branch to the branch to delete                |
 |||
 
 ## Misc
@@ -55,12 +57,14 @@
 | git clean                                                  | Clean all files in working copy                                     |
 | git clean -f -d                                            | Clean dir of untracked files and dirs                               |
 | git mergetool                                              | External merge tool                                                 |
+| git merge --abort                                          | Cancel/abort merge                                                  |
 | git remote                                                 | Show remotes                                                        |
 | git remote -v                                              | Show remotes verbose                                                |
 | git remote add origin `<url>`                              | Add an origin of `<url>` for origin                                 |
 | git remote set-url origin `<url>`                          | Change remote url                                                   |
 | git remote rm origin                                       | Remove remote url                                                   |
-| git show --pretty="" --name-only `<commit>`                | Show filenames in commit                                            |
+| git remote prune <remote>                                  | Prune refs to branches that aren't there anymore                    |
+| git show --pretty="" --name-only `<commit>`                | Show filenames in commit            g                               |
 | git fetch --all & git reset --hard origin/`<branch name>`  | Force the pull to overwrite local files                             |
 | git fetch [`<remote>`]                                     | Fetch changes                                                       |
 | git pull                                                   | Fetch changes and merge (git fetch && git merge `<remote>/<branch>` |
@@ -79,32 +83,34 @@
 |||
 
 ## Log
-| Command                          | Description                                      |
-|----------------------------------|--------------------------------------------------|
-| git log -n `<num>`               | Show `<num>` number of logs messages             |
-| git show --stat `<hash>`         | Show the changed files for commit hash           |
-| git show `<hash>`                | Show the changes for commit hash                 |
-| git diff `<hash>` `<file>`       | Show diff for file at commit hash                |
-| git diff `<hash>`..`<hash>`      | Show diff between two hashes                     |
-| git diff HEAD~1..HEAD            | Show diff for one behind HEAD (HEAD~1) and HEAD  |
-| git diff `<hash>`..              | Show diff for hash and HEAD                      |
-| git diff --cached [`<filename>`] | Show diff for HEAD and stage                     |
-| git log --decorate --numstat     | Show files that were changed with log            |
-| git ls                           | Show log oneline with authors                    |
-| git ls --author=`<author>`       | Show log online of specific author               |
-| git ll                           | Show files that were changed with log            |
-| git lds                          | Show log showing dates                           |
-| git ld                           | Show log showing relative dates                  |
-| git log -u                       | Show commits and diff of file                    |
-| git st                           | Shorter status                                   |
-| git diff HEAD `<file>`           | Show changes in unstaged file                    |
-| git log `<file>`                 | Show commits for `<file>`                        |
-| git log -p `<revision>` `<file>` | Show commits with diffs for `<file>` at revision |
-| git shortlog -s -n -e            | Show summary of authors and their commits        |
-| git log --stat                   | Show log with graph of added and removed things  |
-| git log -p                       | Show log with diff                               |
-| git log --follow `<filename>`    | List commits for `<filename>`                    |
-|                                  |                                                  |
+| Command                                        | Description                                      |
+|------------------------------------------------|--------------------------------------------------|
+| git log -n `<num>`                             | Show `<num>` number of logs messages             |
+| git show --stat `<hash>`                       | Show the changed files for commit hash           |
+| git show `<hash>`                              | Show the changes for commit hash                 |
+| git diff `<hash>` `<file>`                     | Show diff for file at commit hash                |
+| git diff `<hash>`..`<hash>`                    | Show diff between two hashes                     |
+| git diff HEAD~1..HEAD                          | Show diff for one behind HEAD (HEAD~1) and HEAD  |
+| git diff `<hash>`..                            | Show diff for hash and HEAD                      |
+| git diff --cached [`<filename>`]               | Show diff for HEAD and stage                     |
+| git log --decorate --numstat                   | Show files that were changed with log            |
+| git ls                                         | Show log oneline with authors                    |
+| git ls --author=`<author>`                     | Show log online of specific author               |
+| git ll                                         | Show files that were changed with log            |
+| git lds                                        | Show log showing dates                           |
+| git ld                                         | Show log showing relative dates                  |
+| git log -u                                     | Show commits and diff of file                    |
+| git st                                         | Shorter status                                   |
+| git diff HEAD `<file>`                         | Show changes in unstaged file                    |
+| git log `<file>`                               | Show commits for `<file>`                        |
+| git log -p `<revision>` `<file>`               | Show commits with diffs for `<file>` at revision |
+| git shortlog -s -n -e                          | Show summary of authors and their commits        |
+| git log --stat                                 | Show log with graph of added and removed things  |
+| git log -p                                     | Show log with diff                               |
+| git log --follow `<filename>`                  | List commits for `<filename>`                    |
+| git log --all --full-history -- <path-to-file> | Show log for deleted file                        |
+| git log -S'`searchTerm`' -- `<filename>`       | Search for occurance of string in file's history |
+|                                                |                                                  |
 
 ## Checkout
 | Command                                | Description                                                  |
@@ -115,6 +121,7 @@
 | git reset --hard HEAD~1                | Rollback/undo to last commit discard files from commit       |
 | git checkout `<hash/branch>`           | Checkout/rollback to hash or branch                          |
 | git co `<hash>` `<file_path_and_name>` | Checkout `<file>` from `<hash>`                              |
+| git checkout tags/`<tag>`              | Checkout tag                                                 |
 |                                        |                                                              |
 
 ## Remotes
@@ -144,12 +151,14 @@
 |                                    |                         |
 
 ## Submodules
-| Command                                                | Description                                        |
-|--------------------------------------------------------|----------------------------------------------------|
-| git submodule                                          | List all submodules                                |
-| git submodule update [--init --recursive]              | Pull down all submodules                           |
-| git submodule add `<submodule_url>` `<submodule_name>` | Add submodule to repo                              |
-| git clone --recursive `<project_url>`                  | Clone repo including submodules and their contents |
+| Command                                                              | Description                                        |
+|----------------------------------------------------------------------|----------------------------------------------------|
+| git submodule                                                        | List all submodules                                |
+| git submodule update [--init --recursive]                            | Pull down all submodules                           |
+| git submodule add -b `<branch>` `<submodule_url>` `<submodule_name>` | Add submodule to track branch                      |
+| git submodule add `<submodule_url>` `<submodule_name>`               | Add submodule to repo                              |
+| git clone --recursive `<project_url>`                                | Clone repo including submodules and their contents |
+| git submodule update --recursive --remote                            | Update submodule                                   |
 |||
 
 

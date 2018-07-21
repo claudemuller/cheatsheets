@@ -86,6 +86,8 @@
 | O                     | New line above point                   |
 | y                     | Yank/copy selection                    |
 | p                     | Paste                                  |
+| " * y			| Yank to system clipboard 		 |
+| " * p			| Paste to system clipboard 		 |
 | ~                     | Upper/lowercase character              |
 | >                     | Indent of code                         |
 | cs"'                  | Inside "" change to ''                 |
@@ -129,6 +131,7 @@
 | U           | Fix whole line        |
 | :w          | Save                  |
 | :wq         | Save & quit           |
+| Shft + zz   | Save & quit           |
 | :!          | Execute shell command |
 | v           | Select                |
 | :r filename | Retrieve filename     |

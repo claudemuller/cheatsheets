@@ -28,6 +28,8 @@
 | Ctrl + Alt + Ins          | Create new file in directory                                          |
 | Ctrl + Shft + V           | Show content paste pop up                                             |
 | Ctrl + Alt + Shft + T     | Bring up refactor this pop up                                         |
+| Ctrl + Shft + Z           | Redo                                                                  |
+| Ctrl + Alt + Y            | Synchronise project                                                   |
 |||
 
 ## Code viewing
@@ -57,6 +59,9 @@
 | Ctrl + Alt + Shft + N | Search for symbol                   |
 | Ctrl + Shft + H       | Local history for file              |
 | Ctrl + Shft + Alt + H | Local history for selection         |
+| F11                   | Create Bookmark at line             |
+| Ctrl + F11            | Create a bookmark with mnemonic     |
+| Shft + F11            | Show bookmarks                      |
 |                       |                                     |
 
 ## Git
@@ -85,6 +90,7 @@
 | Alt + 1                  | Show/hide project pane    |
 | Alt + 6                  | Show/hide TODO pane       |
 | Ctrl + Shft + Left/Right | Resize file explorer pane |
+| Alt + F11                | NPM/Grunt/Gulp task pane  |
 |                          |                           |
 
 ## Testing

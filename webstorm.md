@@ -62,6 +62,7 @@
 | F11                   | Create Bookmark at line             |
 | Ctrl + F11            | Create a bookmark with mnemonic     |
 | Shft + F11            | Show bookmarks                      |
+| Alt + 7               | Show project structure              |
 |                       |                                     |
 
 ## Git

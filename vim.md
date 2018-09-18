@@ -123,6 +123,9 @@
 | ?              | Search backwards                    |
 | n              | Next occurance of search result     |
 | N              | Previous occurance of search result |
+| /\c<term>      | Search case insensitive             |
+| /\C<term>      | Search case sensitive               |
+|||
 
 ## General
 | Command     | Description           |

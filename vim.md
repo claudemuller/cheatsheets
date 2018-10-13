@@ -49,6 +49,8 @@
 | zA                        | Toggle fold recursively                      |
 | zO                        | Open fold recursively                        |
 | zC                        | Close fold recursively                       |
+| m<letter>                 | Set mark                                     |
+| '<letter>                 | Go to mark                                   |
 |                           |                                              |
 
 ## Deletion

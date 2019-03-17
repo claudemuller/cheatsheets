@@ -63,6 +63,8 @@
 | Ctrl + F11            | Create a bookmark with mnemonic     |
 | Shft + F11            | Show bookmarks                      |
 | Alt + 7               | Show project structure              |
+| Shft + ESC            | Hide side panel                     |
+| Ctrl + Shft + Alt + . | Toggle presentation mode            |
 |                       |                                     |
 
 ## Git
@@ -82,6 +84,7 @@
 | Command         | Description       |
 |-----------------|-------------------|
 | Ctrl + Shft + ~ | Invoke terminal   |
+| Alt + F12       | Invoke terminal   |
 | Ctrl + Shft + ' | Maximize terminal |
 |                 |                   |
 

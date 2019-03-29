@@ -110,6 +110,7 @@
 | git log --follow `<filename>`                  | List commits for `<filename>`                    |
 | git log --all --full-history -- <path-to-file> | Show log for deleted file                        |
 | git log -S'`searchTerm`' -- `<filename>`       | Search for occurance of string in file's history |
+| git diff --name-only SHA1 SHA2                 | See the files that have changed between hashes   |
 |                                                |                                                  |
 
 ## Checkout

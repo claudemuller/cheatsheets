@@ -47,6 +47,8 @@
 | Alt + F7              | Find usages of symbol under carret  |
 | Ctrl + Alt + F7       | Show usages of symbol under carret  |
 | Alt + F1, 1           | Find/Highlight file in project tree |
+| Alt + F1, 4           | Open file structure view panel      |
+| Shft + ESC            | Close currently focused side panel  |
 | Ctrl + Shft + E       | Show recent file list               |
 | Ctrl + Shft + F       | Find in path                        |
 | Ctrl + TAB            | Switch open files                   |
@@ -111,5 +113,3 @@
 | Ctrl + Shft + A          | Find action               |
 | Alt > Alt                | Bring up tool windows     |
 |||
-
-

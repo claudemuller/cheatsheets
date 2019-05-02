@@ -113,3 +113,4 @@
 | Ctrl + Shft + A          | Find action               |
 | Alt > Alt                | Bring up tool windows     |
 |||
+

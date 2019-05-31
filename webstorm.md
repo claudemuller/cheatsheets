@@ -33,41 +33,42 @@
 |||
 
 ## Code viewing
-| Command               | Description                         |
-|-----------------------|-------------------------------------|
-| Ctrl + +              | Expand block                        |
-| Ctrl + -              | Collapse block                      |
-| Ctrl + .              | Toggle expand/collapse              |
-| Ctrl + Shft + +       | Expand all                          |
-| Ctrl + Shft + -       | Collapse all                        |
-| Ctrl + Alt + +        | Expand recursively                  |
-| Ctrl + Alt + -        | Collapse recursively                |
-| Ctrl + Shft + I       | Quick definition                    |
-| Shft + K              | Show documentation for element      |
-| Alt + F7              | Find usages of symbol under carret  |
-| Ctrl + Alt + F7       | Show usages of symbol under carret  |
-| Alt + F1, 1           | Find/Highlight file in project tree |
-| Alt + F1, 4           | Open file structure view panel      |
-| Shft + ESC            | Close currently focused side panel  |
-| Ctrl + Shft + E       | Show recent file list               |
-| Ctrl + Shft + F       | Find in path                        |
-| Ctrl + TAB            | Switch open files                   |
-| Ctrl + P              | View parameters                     |
-| F4                    | Jump to source                      |
-| Ctrl + B              | Jump to definition                  |
-| Ctrl + Shft + Alt + Z | Navigate back                       |
-| Ctrl + Shft + Alt + X | Navigate forward                    |
-| Ctrl + Q              | View documentation                  |
-| Ctrl + Alt + Shft + N | Search for symbol                   |
-| Ctrl + Shft + H       | Local history for file              |
-| Ctrl + Shft + Alt + H | Local history for selection         |
-| F11                   | Create Bookmark at line             |
-| Ctrl + F11            | Create a bookmark with mnemonic     |
-| Shft + F11            | Show bookmarks                      |
-| Alt + 7               | Show project structure              |
-| Shft + ESC            | Hide side panel                     |
-| Ctrl + Shft + Alt + . | Toggle presentation mode            |
-|                       |                                     |
+| Command                  | Description                         |
+|--------------------------|-------------------------------------|
+| Ctrl + +                 | Expand block                        |
+| Ctrl + -                 | Collapse block                      |
+| Ctrl + .                 | Toggle expand/collapse              |
+| Ctrl + Shft + +          | Expand all                          |
+| Ctrl + Shft + -          | Collapse all                        |
+| Ctrl + Alt + +           | Expand recursively                  |
+| Ctrl + Alt + -           | Collapse recursively                |
+| Ctrl + Shft + I          | Quick definition                    |
+| Shft + K                 | Show documentation for element      |
+| Alt + F7                 | Find usages of symbol under carret  |
+| Ctrl + Alt + F7          | Show usages of symbol under carret  |
+| Alt + F1, 1              | Find/Highlight file in project tree |
+| Alt + F1, 4              | Open file structure view panel      |
+| Shft + ESC               | Close currently focused side panel  |
+| Ctrl + Shft + E          | Show recent file list               |
+| Ctrl + Shft + F          | Find in path                        |
+| Ctrl + TAB               | Switch open files                   |
+| Ctrl + P                 | View parameters                     |
+| F4                       | Jump to source                      |
+| Ctrl + B                 | Jump to definition                  |
+| Ctrl + Shft + Alt + Z    | Navigate back                       |
+| Ctrl + Shft + Alt + X    | Navigate forward                    |
+| Ctrl + Q                 | View documentation                  |
+| Ctrl + Alt + Shft + N    | Search for symbol                   |
+| Ctrl + Shft + H          | Local history for file              |
+| Ctrl + Shft + Alt + H    | Local history for selection         |
+| F11                      | Create Bookmark at line             |
+| Ctrl + F11               | Create a bookmark with mnemonic     |
+| Shft + F11               | Show bookmarks                      |
+| Alt + 7                  | Show project structure              |
+| Shft + ESC               | Hide side panel                     |
+| Ctrl + Shft + Alt + .    | Toggle presentation mode            |
+| Ctrl + Shft + Left/Right | Resize window/pane                  |
+|                          |                                     |
 
 ## Git
 | Command               | Description                        |

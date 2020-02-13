@@ -38,6 +38,9 @@
 | git merge --no-ff                                                 | Merge with no fast-forward                                        |
 | git merge -e `<branch>`                                           | Merge with with ability to edit merge message                     |
 | git merge --log[=`<n>`] `<branch>`                                | Merge with a shortlog of commits (max `<n>` commits) being merged |
+| git branch --merged master                                        | Lists branches merged into master                                 |
+| git branch --merged                                               | Lists branches merged into HEAD (i.e. tip of current branch)      |
+| git branch --no-merged                                            | Lists branches that have not been merged                          |
 | git diff `<branch>` `<branch>`                                    | See difference between branches                                   |
 | git br                                                            | Show a list of all branches with their creation dates and authors |
 | git branch --set-upstream `<branch>` `<remote>/<branch>`          | Set up tracking between local and remote branches                 |

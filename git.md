@@ -116,6 +116,8 @@
 | git diff --name-only SHA1 SHA2                                                | See the files that have changed between hashes   |
 | git diff-tree --no-commit-id --name-only -r `<hash>`                          | List all the files that were changed in a commit |
 | git log --pretty=short -u -L `<start_line_num>`,`<end_line_num>`:`<filename>` | Get the commit for line in file                  |
+| git log --follow -- `<filename>`                                              | Show all commit messages and authors of file     |
+| git log -p `<filename>`                                                       | Show all commits for filename                    |
 |                                                                               |                                                  |
 
 ## Checkout
